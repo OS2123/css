@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8" />
+<title>Zadanie 23 - Szyca</title>
+<style>
+  body {
+    background-color: #222;
+    color: white;
+    font-family: Consolas, monospace;
+    padding: 20px;
+  }
+  .ramka {
+    background-color: #333;
+    border: 2px solid #666;
+    padding: 10px;
+    margin-bottom: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+    max-height: 350px;
+    overflow: auto;
+  }
+</style>
+</head>
+<body>
+
+<h2>Plik CSS: szyc_z23.css</h2>
+<div class="ramka">
+/* Szyca */
+#pogrubienie_Szyca {
+    font-weight: bold;
+}
+
+#pochylona_Szyca {
+    font-style: italic;
+}
+
+#index_gorny_Szyca {
+    vertical-align: super;
+    font-size: smaller;
+}
+
+#index_dolny_Szyca {
+    vertical-align: sub;
+    font-size: smaller;
+}
+
+#mono_Szyca {
+    font-family: "Courier New", monospace;
+}
+
+#powiekszenie_Szyca {
+    font-size: 200%;
+}
+
+#pomniejszenie_Szyca {
+    font-size: 50%;
+}
+</div>
+
+<h2>Plik HTML: zadanie23.html</h2>
+<div class="ramka">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Zadanie 23 Szyca&lt;/title&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;link rel="stylesheet" href="dwor_z23.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;p id="pogrubienie_Szyca"&gt;Szyca - Programista otwiera lodówkę, sięga po mleko i patrzy na datę ważności. "Kurcze, expired" - mówi. Żona: "To chyba można jeszcze użyć?" Programista: "Nie, to już deprecated."&lt;/p&gt;
+    
+    &lt;p id="pochylona_Szyca"&gt;Szyca- Jak nazywa się programista, który nie pije kawy? Error 418: I'm a teapot&lt;/p&gt;
+    
+    &lt;p id="index_gorny_Szyca"&gt;Szyca - Dlaczego programiści zawsze mylą Halloween z Bożym Narodzeniem? Bo Oct 31 == Dec 25&lt;/p&gt;
+    
+    &lt;p id="index_dolny_Szyca"&gt;Szyca - Jak nazywa się programista, który nie boi się wyzwań? Stack Overflow&lt;/p&gt;
+    
+    &lt;p id="mono_Szyca"&gt; Szyca - Dlaczego JavaScript nie umówił się z HTML na randkę? Bo ciągle mówił tylko o swoich stylach&lt;/p&gt;
+    
+    &lt;p id="powiekszenie_Szyca"&gt;Szyca - Ile programistów potrzeba do wymiany żarówki? Żaden, to problem hardware'owy&lt;/p&gt;
+    
+    &lt;p id="pomniejszenie_Szyca"&gt;Szyca - Jak programista gotuje wodę? while(!water.boiling()) { water.heat(); }&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</div>
+
+</body>
+</html>
