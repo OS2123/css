@@ -1,0 +1,9 @@
+/* Oliwier Szyca, klasa 2K, grupa 2 */
+.blok {
+    width: 400px;
+    height: 0.5cm;
+    padding: 20px;
+    margin-left: 710px;
+    border: 10px outset blue;
+    background: rgb(100,100,100);
+}
